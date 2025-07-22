@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "works",
+  "info": {
+    "singularName": "work",
+    "pluralName": "works",
+    "displayName": "Work"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Work_Image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Work_Title": {
+      "type": "string"
+    },
+    "Work_Description": {
+      "type": "text"
+    },
+    "Work_Tag_1": {
+      "type": "string"
+    },
+    "Work_Tag_2": {
+      "type": "string"
+    },
+    "Work_Tag_3": {
+      "type": "string"
+    },
+    "Work_Tag_4": {
+      "type": "string"
+    }
+  }
+}

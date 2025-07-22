@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "admin_modals",
+  "info": {
+    "singularName": "admin-modal",
+    "pluralName": "admin-modals",
+    "displayName": "AdminModal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
